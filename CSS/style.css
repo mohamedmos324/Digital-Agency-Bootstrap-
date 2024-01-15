@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* =================Start  Navbar========== */
+.navbar {
+    background-image: linear-gradient(to right, #f069ff,#68009c);
+    padding: 0;
+    
+}
+.navbar .navbar-brand   img {
+    height: 40px;
+    padding-left: 40px;
+}
+.navbar .nav-item {
+    padding: 0 10px;
+}
+.navbar .nav-link {
+    color: #fff !important;
+    font-weight: 600px;
+}
+.navbar-toggler-icon {
+background-color: #fff;
+border-radius: 10%;
+color: #f069ff;
+}
+/* ==============End Navbar================ */
+
+
+/* ==============Start Banner Section================ */
+.banner {
+    background-image:linear-gradient(to right, #f069ff,#68009c);
+    padding: 80px 0 0 0;
+}
+.banner .play-btn {
+    width: 45px;
+}
+/* ==============End Banner Section================ */
+
+
+
+/* ==============Start Services Section================ */
+.services {
+    padding: 80px 0;
+}
+.services .service_img {
+    width: 100px;
+    margin-top: 20px;
+}
+.services .title::before {
+    content:'' ;
+    height:5px ;
+    width: 200px;
+    text-align: center;
+    background-color:#7b1798 ;
+    margin: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 10px;
+
+}
+.services .title::after {
+    content:'' ;
+    height:10px ;
+    width: 50px;
+    text-align: center;
+    background-color:#7b1798 ;
+    margin: auto;
+    display: block;
+    transform: translateY(7px);
+    border-radius: 10px;
+}
+.services .btn-primary {
+    box-shadow: none;
+    padding: 8px 25px;
+    border: none;
+    background-image: linear-gradient(to right, #f069ff,#68009c);
+    border-radius: 20px;
+}
+/* ==============End Services Section================ */
+
+
+/* ==============Start About US================ */
+.about_us {
+    padding: 50px 0;
+    background-color: #e6e5e5;
+}
+.about_us .title::before{
+    content:'' ;
+    height:5px ;
+    width: 200px;
+    text-align: center;
+    background-color:#7b1798 ;
+    margin: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 10px;
+}
+.about_us .title::after{
+    content:'' ;
+    height:10px ;
+    width: 50px;
+    text-align: center;
+    background-color:#7b1798 ;
+    margin: auto;
+    display: block;
+    transform: translateY(7px);
+    border-radius: 10px;
+}
+.about_us .about_title {
+    font-size: 40px;
+}
+/* ==============Start About US================ */
+
+
+/* ============== Start Testmonials================ */
+.tesimonials {
+    margin: 100px 0;
+}
+.tesimonials h1::before {
+    content:'' ;
+    height:5px ;
+    width: 200px;
+    text-align: center;
+    background-color:#7b1798 ;
+    margin: auto;
+    display: block;
+    transform: translateY(63px);
+    border-radius: 10px;
+}
+.tesimonials h1::after{
+    content:'' ;
+    height:10px ;
+    width: 50px;
+    text-align: center;
+    background-color:#7b1798 ;
+    margin: auto;
+    display: block;
+    transform: translateY(7px);
+    border-radius: 10px;
+}
+.tesimonials .test_items {
+    border-left: 5px solid #f069ff;
+   
+}
+.tesimonials .test_content img {
+    border-radius: 50%;
+    height: 80px;
+    width: 80px;
+}
+/* ==============End Testmonials=================== */
+
+
+/* ==============Start Social-Media Section=================== */
+.social-media {
+    background-color: #e6e5e5;
+    padding: 80px 0;
+}
+.social-media p {
+    font-size: 36px;
+    font-weight: 600;
+}
+.social-media img {
+    height: 60px;
+    width: 60px;
+    transition: .5s;
+}
+.social-media a:hover img {
+    transform: translateY(-10px);
+}
+/* ==============End Social-Media Section=================== */
+
+
+/* ==============Start Footer=================== */
+.footer {
+    background-image:  linear-gradient(to right, #f069ff,#68009c);
+    color: #fff;
+}
+.footer .footer_box {
+    padding: 20px;
+}
+.footer .footer_box  img {
+    width: 120px;
+}
+.footer .footer_box .form-control {
+    box-shadow: none !important;
+    border: none;
+    margin-top: 25px;
+    max-width: 250px;
+}
+.footer .footer_box .btn-primary {
+    box-shadow: none !important;
+    border: none;
+    margin-top: 25px;
+    background-image: linear-gradient(to right, #f069ff,#68009c);
+}
+hr {
+    background-color: #fff;
+}
+/* ==============End Footer=========--========== */
